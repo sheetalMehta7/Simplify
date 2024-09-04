@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading-border {
+  text-shadow: 1px 0px 0px #8b5cf6, -1px 0px 0px #8b5cf6, 0px 1px 0px #8b5cf6,
+    0px -1px 0px #8b5cf6, 1px 1px 0px #8b5cf6, -1px -1px 0px #8b5cf6,
+    1px -1px 0px #8b5cf6, -1px 1px 0px #8b5cf6;
+}
+
+body {
+    overflow-x: hidden;
+}

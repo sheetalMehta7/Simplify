@@ -12,7 +12,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0f172a', // Darker background color
+        primary: '#000', // Darker background color
         secondary: '#1e293b', // Slightly lighter background for contrast
         accent: '#3b82f6', // Bright accent color (buttons, highlights)
         textPrimary: '#e2e8f0', // Light text color
