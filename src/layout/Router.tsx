@@ -4,7 +4,6 @@ import Home from '../pages/Home'
 import DashboardLayout from './DashboardLayout'
 import Dashboard from '../pages/Dashboard'
 
-
 const Router = () => {
     return (
         <BrowserRouter>

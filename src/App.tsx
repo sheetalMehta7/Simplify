@@ -1,3 +1,4 @@
+import { RecoilRoot } from "recoil"
 import Router from "./layout/Router"
 
 function App() {
@@ -5,7 +6,9 @@ function App() {
   return (
     <>
       <div className="w-screen overflow-x-hidden">
-        <Router/>
+        <RecoilRoot>
+          <Router/>
+        </RecoilRoot>
       </div>
     </>
   )
