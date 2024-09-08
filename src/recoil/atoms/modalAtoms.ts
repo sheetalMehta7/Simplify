@@ -1,11 +1,14 @@
 import { atom } from "recoil"
+import { modalTypes } from "../../utils/modalConstants"
 
-const modalState = atom({
+interface ModalState {
+    modalTypeActive: keyof typeof modalTypes | ""
+}
+
+const modalState = atom<ModalState>({
     key: "modalState",
     default: {
-        loginModal: false,
-        signupModal: false,
-
+        modalTypeActive: ""
     }
 })
 
