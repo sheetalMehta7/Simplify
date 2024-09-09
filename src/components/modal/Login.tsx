@@ -53,7 +53,7 @@ const Login = () => {
         {/* Google Login Button */}
         <button
           type="button"
-          className="flex justify-center items-center w-full bg-transparent hover:bg-violet-500 border text-violet-500 hover:text-white border-violet-500  focus:ring-2 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-sm px-5 py-2.5"
+          className="flex justify-center items-center w-full bg-transparent hover:bg-slate-700 border text-violet-500 hover:text-white border-violet-500  focus:ring-2 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-sm px-5 py-2.5"
           onClick={() => {
             console.log('Google signup clicked');
           }}
