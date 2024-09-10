@@ -30,7 +30,6 @@ const Modal = () => {
     <>
       {modals.modalTypeActive &&
         <div
-          aria-hidden="true"
           className="fixed inset-0 z-50 flex items-center justify-center w-full h-full bg-slate-900 bg-opacity-50"
         >
           <div className="relative p-4 w-full max-w-md max-h-full rounded-lg shadow bg-slate-800 border border-gray-600">
